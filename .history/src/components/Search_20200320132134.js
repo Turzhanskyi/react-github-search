@@ -13,7 +13,7 @@ export const Search = () => {
     }
 
     if (value.trim()) {
-      alert.hide();
+      alert.hide()
       github.search(value.trim());
     } else {
       alert.show("Уведіть дані користувача");

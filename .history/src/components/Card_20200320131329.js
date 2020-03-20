@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Card = ({ user }) => (
+export const Card = ({user}) => (
   <div className="card">
     <div className="card-body">
       <img src={user.avatar_url} alt={user.login} className="card-img-top" />

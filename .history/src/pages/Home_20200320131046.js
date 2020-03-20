@@ -1,10 +1,10 @@
-import React, { Fragment, useContext } from "react";
+import React, { Fragment } from "react";
 import { Search } from "../components/Search";
 import { Card } from "../components/Card";
 import { GithubContext } from "../context/github/githubContext";
 
 export const Home = () => {
-  const { loading, users } = useContext(GithubContext);
+  const { loading, user } = useContext(GithubContext);
 
   return (
     <Fragment>

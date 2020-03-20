@@ -13,10 +13,10 @@ export const Search = () => {
     }
 
     if (value.trim()) {
-      alert.hide();
+      aler
       github.search(value.trim());
     } else {
-      alert.show("Уведіть дані користувача");
+      show("Уведіть дані користувача");
     }
   };
 
