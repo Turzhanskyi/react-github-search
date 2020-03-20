@@ -33,7 +33,6 @@ export const GithubState = ({ children }) => {
     const response = await axios.get(
       withCreds(`https://api.github.com/search/users?q=${value}&`)
     );
-
     dispath({
       type: SEARCH_USERS,
       payload: response.data.items
@@ -44,25 +43,20 @@ export const GithubState = ({ children }) => {
     setLoading();
 
     const response = await axios.get(
-      withCreds(`https://api.github.com/users/${name}?`)
+      withCreds(`https://api.github.com/search/users?q=${value}&`)
     );
-
+    
     dispath({
       type: GET_USER,
-      payload: response.data
+      payload: []
     });
   };
 
   const getRepos = async name => {
     setLoading();
-
-    const response = await axios.get(
-      withCreds(`https://api.github.com/users/${name}/repos?per_page=5&`)
-    );
-
     dispath({
       type: GET_REPOS,
-      payload: response.data
+      payload: []
     });
   };
 

@@ -13,9 +13,7 @@ import {
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET;
 
-const withCreds = url => {
-  return `${url}client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}`;
-};
+c
 
 export const GithubState = ({ children }) => {
   const initialState = {
@@ -31,9 +29,8 @@ export const GithubState = ({ children }) => {
     setLoading();
 
     const response = await axios.get(
-      withCreds(`https://api.github.com/search/users?q=${value}&`)
+      `https://api.github.com/search/users?q=${value}&client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}`
     );
-
     dispath({
       type: SEARCH_USERS,
       payload: response.data.items
@@ -42,27 +39,17 @@ export const GithubState = ({ children }) => {
 
   const getUser = async name => {
     setLoading();
-
-    const response = await axios.get(
-      withCreds(`https://api.github.com/users/${name}?`)
-    );
-
     dispath({
       type: GET_USER,
-      payload: response.data
+      payload: []
     });
   };
 
   const getRepos = async name => {
     setLoading();
-
-    const response = await axios.get(
-      withCreds(`https://api.github.com/users/${name}/repos?per_page=5&`)
-    );
-
     dispath({
       type: GET_REPOS,
-      payload: response.data
+      payload: []
     });
   };
 

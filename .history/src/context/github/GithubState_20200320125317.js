@@ -49,20 +49,15 @@ export const GithubState = ({ children }) => {
 
     dispath({
       type: GET_USER,
-      payload: response.data
+      payload: response.dat
     });
   };
 
   const getRepos = async name => {
     setLoading();
-
-    const response = await axios.get(
-      withCreds(`https://api.github.com/users/${name}/repos?per_page=5&`)
-    );
-
     dispath({
       type: GET_REPOS,
-      payload: response.data
+      payload: []
     });
   };
 

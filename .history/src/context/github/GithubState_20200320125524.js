@@ -62,7 +62,7 @@ export const GithubState = ({ children }) => {
 
     dispath({
       type: GET_REPOS,
-      payload: response.data
+      payload: res
     });
   };
 
