@@ -83,7 +83,7 @@ export const Profile = ({ match }) => {
               <div className="badge badge-primary">Підписники: {followers}</div>
               <div className="badge badge-success">Підписки: {following}</div>
               <div className="badge badge-info">
-                Репозиторії: {public_repos}
+                Репозитории: {public_repos}
               </div>
               <div className="badge badge-dark">Gists: {public_gists}</div>
             </div>
