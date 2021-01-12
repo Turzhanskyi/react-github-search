@@ -1,20 +1,10 @@
-# React Hooks. Project "Github Search"
+# Project [React Github Search](https://react-hooks-github.firebaseapp.com) / React Hooks /
 
-Hosting URL: https://react-hooks-github.firebaseapp.com
+## [Udemy Course](https://www.udemy.com/course/react-2020-complete-guide/learn/lecture/17342360#overview) React JS. Course 2020 (Hooks, Classes, Redux)
 
-## React JS. З Нуля до Професіонала. Повний курс. Практика. Проект "Пошук Github репозиторія".
+## [Certificate of completion course](https://www.udemy.com/certificate/UC-3c53e5d5-0cf4-4458-a569-a34e317d1954/?deal_code=&utm_source=aff-campaign&utm_medium=udemyads&utm_term=Homepage&utm_content=Textlink&utm_campaign=Admitad-default&admitad_uid=e3320df32a28c674b9bd9bed2ddb6250&publisher_id=606171&website_id=701387)
 
-### Розділ 13: Практика. React Hooks.
-
-Основна частина курсу включає 108 уроків загальною тривалістю 16 годин.
-
-І це без урахування бонусів, в яких міститься ВСЯ необхідна теоретична база для оволодіння React.js з повного нуля (включаючи основи JavaScript)!
-
-При правильному використанні інструкцій і прийомів з курсу, ви на наочних прикладах з повного нуля навчитеся створювати динамічні, реактивні, повністю адаптивні SPA-додатки і веб-сайти на бібліотеці React.js.
-
-### Автор курсу: Владилен Минин
-
-Udemy URL: https://www.udemy.com/course/react-2020-complete-guide/learn/lecture/17342360#overview
+### Instructor: [Denys Mescheryakov](https://www.udemy.com/user/denys-mescheryakov/)
 
 ### ---------------------------------------------------------
 
@@ -33,4 +23,4 @@ REACT_APP_CLIENT_SECRET=**\*\*\***
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Hosting URL: https://react-hooks-github.firebaseapp.com
+Hosting URL: 
